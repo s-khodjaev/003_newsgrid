@@ -188,6 +188,10 @@ p {
   color: var(--primary-color) !important;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 /* Inner Page Container */
 
 .page-container {
@@ -200,6 +204,8 @@ p {
 .page-container > *:first-child {
   grid-row: 1 / span 3;
 }
+
+
 
 /* Navigation */
 
@@ -306,6 +312,18 @@ p {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccc;
+  padding: .5rem;
+}
+
+#article .meta .category {
+  margin-top: .4rem;
 }
 
 /* Footer */
